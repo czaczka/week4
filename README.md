@@ -21,3 +21,8 @@
 - git commit -am "week 4 tutorial setup"
 - git remote add origin https://github.com/czaczka/week4.git
 - git push -u origin master
+
+### helpful hints
+
+- to load images/assets make sure assets directory is in src/assets and then add directory to angular.json assets array
+- when displaying html start with src="/assets/"

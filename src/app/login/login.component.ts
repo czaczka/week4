@@ -23,7 +23,9 @@ export class LoginComponent implements OnInit {
       if (this.email == this.users[i].email && this.password == this.users[i].password) {
           this.route.navigate(['/account']);
           
-      } 
+      } else {
+        alert("error");
+      }
     
   }}
 }
