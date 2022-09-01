@@ -21,6 +21,7 @@
 - git commit -am "week 4 tutorial setup"
 - git remote add origin https://github.com/czaczka/week4.git
 - git push -u origin master
+- git checkout -b "week_5"
 
 ### helpful hints
 
