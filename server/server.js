@@ -20,3 +20,6 @@ let server = http.listen(3000, function(){
     console.log("server running");
     console.log("host: " + host + " port: " + port);
 });
+
+app.post('/login', require('./router/postLogin'));
+app.post('/loginafter', require('./router/postLoginAfter'));

@@ -1,28 +1,12 @@
 <form>
-    <!-- Email input -->
-    <div class="form-outline mb-4">
-      <input type="email" id="form2Example1" class="form-control" [(ngModel)]='email' name="email"/>
-      <label class="form-label" for="form2Example1">Email address</label>
-    </div>
-  
-    <!-- Password input -->
-    <div class="form-outline mb-4">
-      <input type="password" id="form2Example2" class="form-control" [(ngModel)]='password' name="password"/>
-      <label class="form-label" for="form2Example2">Password</label>
-    </div>
-  
-    <!-- 2 column grid layout for inline styling -->
-    <div class="row mb-4">
-      <div class="col d-flex justify-content-center">
-
-      </div>
-  
-     
-    </div>
-  
-    <!-- Submit button -->
-    <button (click)="itemClicked()" type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
-  
-
-  </form>
+username by email:<br>
+<input type="email" [(ngModel)]="userpwd.username"><br>
+user password:<br>
+<input type="password" [(ngModel)]="userpwd.pwd"><br>
+Birthdate<br>
+<input type="date" [(ngModel)]="userobj.userbirthdate"><br>
+Age:<br>
+<input type="number" [(ngModel)]="userobj.userage"><br>
+<button class="log_but" value="Login" id="login"(click)="loginfunc()">Login</button>
+</form>
   <router-outlet></router-outlet>

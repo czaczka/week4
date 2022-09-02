@@ -1,0 +1,12 @@
+[{
+    "username": "greg@gmail.com",
+    "pwd": "123",
+    "age": "23",
+    "email": "greg@gmail.com",
+    "birthdate": "23"},
+    {"username": "fred@gmail.com",
+    "pwd": "123",
+    "age": "30",
+    "email": "fred@gmail.com",
+    "birthdate": "20"
+}]
